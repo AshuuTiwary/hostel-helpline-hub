@@ -147,8 +147,11 @@ const StudentLogin = () => {
           </CardContent>
         </Card>
 
-        <div className="text-center">
-          <Link to="/admin/login" className="text-sm text-primary hover:underline">
+        <div className="text-center space-y-2">
+          <Link to="/" className="text-sm text-muted-foreground hover:text-primary block">
+            ← Back to Home
+          </Link>
+          <Link to="/admin/login" className="text-sm text-primary hover:underline block">
             Login as Admin/Warden
           </Link>
         </div>
